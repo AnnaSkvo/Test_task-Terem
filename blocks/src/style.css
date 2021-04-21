@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x)/ -2);
+  margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.card{
+  height: 30vh;
+  background-color: #1826B0;
+  border: 1px solid black;
+}
+
+.card-dashed{
+  border: 1px dashed black;
+}
+
+.card1{
+  background-color: #717BD8;
+}
+.card2{
+  background-color: #4C59D8;
+}
+.card3{
+  background-color: #081272;
+}
+
+.btn{
+  margin-top: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.heading{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
